@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.user-profile-sec{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background-color: rgba(237, 112, 95, 0.339);
+    padding: 50px 100px;
+    width: 70%;
+    border-radius: 12px;
+}
+
+.user-profile-sec div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 500;
+    color: brown;
+}
+
+input{
+    width: 60%;
+    height: 50px;
+    border: 0px;
+    border-radius: 12px;
+    font-size: 18px;
+    padding-left: 12px;
+}

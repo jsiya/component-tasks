@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import UserProfile from './components/user/UserProfile';
+import ProductCard from './components/product/ProductCard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          smdlfmsdlkfmsaaaaaaaaaa
-        </a>
-      </header>
+    <div className='app-div'>
+      <p>User Profile Component:</p>
+      <UserProfile name='Siya' email='jabbarovasia@gmail.com'/>
+      <p>Product Card Component:</p>
+      <ProductCard name='Macbook Pro' price='4899.99' desc='M3 pro'/>
     </div>
   );
 }
